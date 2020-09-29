@@ -1,0 +1,17 @@
+.toggler {
+  border: none;
+  background-color: transparent;
+  display: none;
+  cursor: pointer;
+}
+
+.toggler__img {
+  display: block;
+}
+
+@media only screen and (max-width:750px) {
+  .toggler {
+    display: block;
+    outline: none;
+  }
+}

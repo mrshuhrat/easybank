@@ -1,0 +1,27 @@
+/* public-sans-100 - latin */
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: url("../fonts/public-sans-v4-latin-100.woff2") format("woff2"),
+    url("../fonts/public-sans-v4-latin-100.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/public-sans-v4-latin-regular.woff2") format("woff2"),
+    url("../fonts/public-sans-v4-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../fonts/public-sans-v4-latin-500.woff2") format("woff2"),
+    url("../fonts/public-sans-v4-latin-500.woff") format("woff");
+}

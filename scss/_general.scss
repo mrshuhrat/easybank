@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  padding-top: 78px;
+  margin: 0;
+  font-family: "Public Sans", "Arial" ,sans-serif;
+  color: #9597A5;
+  line-height: 1.5;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}

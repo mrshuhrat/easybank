@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  padding: 8px 33px;
+  min-width: 163px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width:750px) {
+  .header-button {
+    display: none;
+  }
+}
